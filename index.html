@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Card Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animation.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  
+  <section id="game_div"></section>
+  <footer></footer>
+  <script type="text/javascript" src="flashcard_QA.json"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript">
+    (function() {
+      'use strict';
+      let myGame = new Game("game_div", {
+        game: "flashcard",
+        data: flashcard_QA
+      });
+    })()
+  </script>
+</body>
+</html>
