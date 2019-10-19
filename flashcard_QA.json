@@ -51,5 +51,15 @@ var flashcard_QA = [
         "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
         "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
         "category": "javascript"
-      }
+      },{
+        "q": "<h3>What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?</h3>",
+        "a": "Makes debugging easier, Prevents accidental globals, Eliminates this coercion, Disallows duplicate parameter values, & Throws errors on invalid usage of delete.",
+        "link": "https://www.toptal.com/javascript/interview-questions",
+        "category": "javascript"
+      },{
+        "q": "<h3>What are two new additions for ECMAScript 7(2016)</h3>",
+        "a": "Array.prototype.includes() & Exponential operator",
+        "link": "https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4",
+        "category": "javascript"
+      }      
 ]
