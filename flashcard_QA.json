@@ -1,76 +1,76 @@
 var flashcard_QA = [
-  // {
-  //   "q": "<h3>What is JSON?</h3>",
-  //   "a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is the difference between <br>== and ===?</h3>",
-  //   "a": "'==' allows for coercion</p>",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is the difference between null and undefined?</h3>",
-  //   "a": "Null is an object. Undefined is when you declare a variable but don't assign it.",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is a Global variable?</h3>",
-  //   "a": "Global variables live as long as your application lives. Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What does this refer to in Javascript?</h3>",
-  //   "a": "The value of this, when used in a function, is the object that 'owns' the function. This is defined in the context in which it is called.",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is a closure?</h3>",
-  //   "a": "It makes it possible for a function to have 'private' variables. Inner variables are protected by the scope of an anonymous function, and can only be changed using the parent function.",
-  //   "link": "https://www.w3schools.com/js/js_function_closures.asp",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is encapsulation?</h3>",
-  //   "a": "Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.",
-  //   "link": "http://stackoverflow.com/questions/3597087/encapsulation-in-javascript",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What does the term headless mean?</h3>",
-  //   "a": "Without a graphical display.",
-  //   "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is namespacing?</h3>",
-  //   "a": "Namespacing is a technique employed to avoid collisions with other objects or variables in the global namespace.",
-  //   "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What are modules?</h3>",
-  //   "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
-  //   "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?</h3>",
-  //   "a": "Makes debugging easier, Prevents accidental globals, Eliminates this coercion, Disallows duplicate parameter values, & Throws errors on invalid usage of delete.",
-  //   "link": "https://www.toptal.com/javascript/interview-questions",
-  //   "category": "javascript"
-  // },
-  // {
-  //   "q": "<h3>What are two new additions for ECMAScript 7(2016)</h3>",
-  //   "a": "Array.prototype.includes() & Exponential operator",
-  //   "link": "https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4",
-  //   "category": "javascript"
-  // },
+  {
+    "q": "<h3>What is JSON?</h3>",
+    "a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is the difference between <br>== and ===?</h3>",
+    "a": "'==' allows for coercion</p>",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is the difference between null and undefined?</h3>",
+    "a": "Null is an object. Undefined is when you declare a variable but don't assign it.",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is a Global variable?</h3>",
+    "a": "Global variables live as long as your application lives. Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What does this refer to in Javascript?</h3>",
+    "a": "The value of this, when used in a function, is the object that 'owns' the function. This is defined in the context in which it is called.",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is a closure?</h3>",
+    "a": "It makes it possible for a function to have 'private' variables. Inner variables are protected by the scope of an anonymous function, and can only be changed using the parent function.",
+    "link": "https://www.w3schools.com/js/js_function_closures.asp",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is encapsulation?</h3>",
+    "a": "Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.",
+    "link": "http://stackoverflow.com/questions/3597087/encapsulation-in-javascript",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What does the term headless mean?</h3>",
+    "a": "Without a graphical display.",
+    "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is namespacing?</h3>",
+    "a": "Namespacing is a technique employed to avoid collisions with other objects or variables in the global namespace.",
+    "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What are modules?</h3>",
+    "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
+    "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?</h3>",
+    "a": "Makes debugging easier, Prevents accidental globals, Eliminates this coercion, Disallows duplicate parameter values, & Throws errors on invalid usage of delete.",
+    "link": "https://www.toptal.com/javascript/interview-questions",
+    "category": "javascript"
+  },
+  {
+    "q": "<h3>What are two new additions for ECMAScript 7(2016)</h3>",
+    "a": "Array.prototype.includes() & Exponential operator",
+    "link": "https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4",
+    "category": "javascript"
+  },
   {
     "q": "<h3>What is Angular?</h3>",
     "a": "<p>A front-end framework that specilize in building rich Single-Page application. Angular integrates a range of features like declarative templates, dependency injection, end-to-end tooling.</p>",
@@ -136,5 +136,59 @@ var flashcard_QA = [
     "a": "<p>Angular uses HTML to render the UI of an application as it is a declarative language and is much easier to use than JavaScript.</p>",
     "link": "https://hackr.io/blog/angular-interview-questions/#question-state-some-advantages-of-angular-over-other-frameworks",
     "category": "Angular"
+  },
+  {
+    "q": "<h3>What are some Lifecycle hooks in Angular?</h3>",
+    "a": "<p><ul><li>ngOnChange()</li><li>ngOnInit()</li><li>ngDoCheck()</li><li>ngAfterContentInit()</li><li>ngAfterContentChecked()</li><li>ngAfterViewInit()</li><li>ngAfterViewChecked()</li><li>ngOnDestroy()</li></ul></p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>ngOnChange()</h3>",
+    "a": "<p>This method is called whenever one or more input properties of the components changes.  The hook receives SimpleChanges object containing the previous and current values of the property.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>ngOnInit()</h3>",
+    "a": "<p>This hook gets called once, after the ngOnChanges hook. It initializes the component and sets the input properties of the component.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>ngDoCheck()</h3>",
+      "a": "<p>It gets called after ngOnChanges and ngOnInit and is used to detect and act on changes that cannot be detected by Angular.  We can implement our change detection algorithm in this hook.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
+  },
+  {
+    "q": "<h3>ngAfterContentInit()</h3>",
+      "a": "<p>It gets called after the first ngDoCheck hook. This hook responds after the content gets projected inside the component.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
+  },
+  {
+    "q": "<h3>ngAfterContentChecked()</h3>",
+      "a": "<p>It gets called after ngAfterContentInit and every subsequent ngDoCheck. It responds after the projected content is checked.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
+  },
+  {
+    "q": "<h3>ngAfterViewInit()</h3>",
+      "a": "<p>It responds after a component's view, or a child component's view is initialized.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
+  },
+  {
+    "q": "<h3>ngAfterViewChecked()</h3>",
+      "a": "<p>It gets called after ngAfterViewInit, and it responds after the component's view, or the child component's view is checked.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
+  },
+  {
+    "q": "<h3>ngOnDestroy()</h3>",
+      "a": "<p>It gets called just before Angular destroys the component. This hook can be used to clean up the code and detach event handlers.</p>",
+      "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
+      "category": "Angular"
   }
 ]
