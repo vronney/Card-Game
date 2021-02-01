@@ -168,7 +168,7 @@ var flashcard_QA = [
       "category": "Angular"
   },
   {
-    "q": "<h3>ngAfterContentChecked()</h3>",
+    "q": "<h3 style='font-size: medium;'>ngAfterContentChecked()</h3>",
       "a": "<p>It gets called after ngAfterContentInit and every subsequent ngDoCheck. It responds after the projected content is checked.</p>",
       "link": "https://hackr.io/blog/angular-interview-questions/#question-what-are-lifecycle-hooks-in-angular-explain-some-life-cycles-hooks",
       "category": "Angular"
