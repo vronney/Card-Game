@@ -1,65 +1,140 @@
 var flashcard_QA = [
-	{
-		"q": "<h3>What is JSON?</h3>",
-		"a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",
-		"link": "https://www.toptal.com/javascript/interview-questions",
-		"category": "javascript"
-	},{
-		"q": "<h3>What is the difference between <br>== and ===?</h3>",
-		"a": "'==' allows for coercion</p>",
-		"link": "https://www.toptal.com/javascript/interview-questions",
-		"category": "javascript"
-	},{
-        "q": "<h3>What is the difference between null and undefined?</h3>",
-        "a": "Null is an object. Undefined is when you declare a variable but don't assign it.",
-        "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is a Global variable?</h3>",
-        "a": "Global variables live as long as your application lives. Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.",
-        "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
- 
-      },{
-        "q": "<h3>What does this refer to in Javascript?</h3>",
-        "a": "The value of this, when used in a function, is the object that 'owns' the function. This is defined in the context in which it is called.",
-        "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
- 
-      },{
-        "q": "<h3>What is a closure?</h3>",
-        "a": "It makes it possible for a function to have 'private' variables. Inner variables are protected by the scope of an anonymous function, and can only be changed using the parent function.",
-        "link": "https://www.w3schools.com/js/js_function_closures.asp",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is encapsulation?</h3>",
-        "a": "Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.",
-        "link": "http://stackoverflow.com/questions/3597087/encapsulation-in-javascript",
-        "category": "javascript"
-      },{
-        "q": "<h3>What does the term headless mean?</h3>",
-        "a": "Without a graphical display.",
-        "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is namespacing?</h3>",
-        "a": "Namespacing is a technique employed to avoid collisions with other objects or variables in the global namespace.",
-        "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-        "category": "javascript"
-      },{
-        "q": "<h3>What are modules?</h3>",
-        "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
-        "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?</h3>",
-        "a": "Makes debugging easier, Prevents accidental globals, Eliminates this coercion, Disallows duplicate parameter values, & Throws errors on invalid usage of delete.",
-        "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
-      },{
-        "q": "<h3>What are two new additions for ECMAScript 7(2016)</h3>",
-        "a": "Array.prototype.includes() & Exponential operator",
-        "link": "https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4",
-        "category": "javascript"
-      }      
+  // {
+  //   "q": "<h3>What is JSON?</h3>",
+  //   "a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is the difference between <br>== and ===?</h3>",
+  //   "a": "'==' allows for coercion</p>",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is the difference between null and undefined?</h3>",
+  //   "a": "Null is an object. Undefined is when you declare a variable but don't assign it.",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is a Global variable?</h3>",
+  //   "a": "Global variables live as long as your application lives. Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What does this refer to in Javascript?</h3>",
+  //   "a": "The value of this, when used in a function, is the object that 'owns' the function. This is defined in the context in which it is called.",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is a closure?</h3>",
+  //   "a": "It makes it possible for a function to have 'private' variables. Inner variables are protected by the scope of an anonymous function, and can only be changed using the parent function.",
+  //   "link": "https://www.w3schools.com/js/js_function_closures.asp",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is encapsulation?</h3>",
+  //   "a": "Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.",
+  //   "link": "http://stackoverflow.com/questions/3597087/encapsulation-in-javascript",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What does the term headless mean?</h3>",
+  //   "a": "Without a graphical display.",
+  //   "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is namespacing?</h3>",
+  //   "a": "Namespacing is a technique employed to avoid collisions with other objects or variables in the global namespace.",
+  //   "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What are modules?</h3>",
+  //   "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
+  //   "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?</h3>",
+  //   "a": "Makes debugging easier, Prevents accidental globals, Eliminates this coercion, Disallows duplicate parameter values, & Throws errors on invalid usage of delete.",
+  //   "link": "https://www.toptal.com/javascript/interview-questions",
+  //   "category": "javascript"
+  // },
+  // {
+  //   "q": "<h3>What are two new additions for ECMAScript 7(2016)</h3>",
+  //   "a": "Array.prototype.includes() & Exponential operator",
+  //   "link": "https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4",
+  //   "category": "javascript"
+  // },
+  {
+    "q": "<h3>What is Angular?</h3>",
+    "a": "<p>A front-end framework that specilize in building rich Single-Page application. Angular integrates a range of features like declarative templates, dependency injection, end-to-end tooling.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-what-is-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Why was Angular introduced as a client-side framework?</h3>",
+    "a": "<p>Angular was built to address the issues of maintaining the code and no provision of data handling facilities across the views by jQuery, thus, making it easier for the developers by dividing code into smaller bits of information that are known as Components in Angular.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-why-was-angular-introduced-as-a-client-side-framework",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>What is ng-content?</h3>",
+    "a": "<p>ng-content core directive allows for component designs where certain internal details of the template are not hidden inside the component but instead are provided as an input, which in certain cases really simplifies the design.</p>",
+    "link": "https://stackoverflow.com/questions/61038616/ng-template-ng-content-are-directives-in-angular-or-just-angular-element",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Accessibility Applications **</p>",
+    "a": "<p>Angular allows creating accessible applications using ARIA-enabled components, built-in a11y test infrastructure, and developer guides.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Angular CLI **</p>",
+    "a": "<p>Angular provides support for command-line interface tools. These tools can be used for adding components, testing, instant deploying, etc.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Animation Support **</p>",
+    "a": "<p>Angular’s intuitive API allows the creation of high-performance, complex animation timelines with very little code.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Cross-Platform App Development **</p>",
+    "a": "<p>Angular can be used for building an efficient and powerful desktop, native, and progressive web apps. Angular provides support for building native mobile applications using Cordova, Ionic, or NativeScript.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Code Generation **</p>",
+    "a": "<p>Angular is able to convert templates into highly-optimized code for modern JavaScript virtual machines.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>Various features of Angular...</h3><p>** Code Splitting **</p>",
+    "a": "<p>With the new Component Router, Angular apps load quickly. The Component Router offers automatic code-splitting so that only the code required to render the view that is requested by a user is loaded.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-please-explain-the-various-features-of-angular",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>State some advantages of Angular over other frameworks...</h3><p>** Out of box Features **</p>",
+    "a": "<p>Several built-in features like routing, state management, rxjs library, and HTTP services are straight out of the box services provided by Angular. So, one does not need to look for the above-stated features separately.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-state-some-advantages-of-angular-over-other-frameworks",
+    "category": "Angular"
+  },
+  {
+    "q": "<h3>State some advantages of Angular over other frameworks...</h3><p>** Declarative UI **</p>",
+    "a": "<p>Angular uses HTML to render the UI of an application as it is a declarative language and is much easier to use than JavaScript.</p>",
+    "link": "https://hackr.io/blog/angular-interview-questions/#question-state-some-advantages-of-angular-over-other-frameworks",
+    "category": "Angular"
+  }
 ]

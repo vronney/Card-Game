@@ -110,8 +110,12 @@ body {
   background-position: -915px -867px;
 }
 
+.card_back .back_val {
+  font-size: small;
+}
+
 .back_val img {
-  width: 40px;
+  width: 25px;
   display: block;
   margin: 0 auto;
 }
@@ -120,6 +124,7 @@ body {
   border: thin solid #ccc;
   display: block;
   padding: 10px;
+  font-size: small;
 }
 
 .standard-deck .card_back {
